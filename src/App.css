@@ -1,0 +1,28 @@
+body {
+  background-color: #1E90FF;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  background-color: #1E90FF; /* Azul */
+  padding: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
